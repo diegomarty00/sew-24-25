@@ -1,7 +1,7 @@
 # SEW 2024/25
 Repositorio de la asignatura de SEW. Aquí podrás encontrar los validadores necesarios para pasar las pruebas, así como los adaptadores y herramientas de accesibilidad web.
 
-<a href="https://diegomarty00.github.io/sew-24-25/P0-Recursos/index.html">Practica 0</a>
+<a href="https://diegomarty00.github.io/sew-24-25/P0-Recursos/index.html">Practica 0</a> 
 
 <a href="https://diegomarty00.github.io/sew-24-25/EscritorioVirtual/index.html">Página Web</a>
 
