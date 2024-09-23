@@ -3,7 +3,7 @@ Repositorio de la asignatura de SEW. Aquí podrás encontrar los validadores nec
 
 <a href="https://diegomarty00.github.io/sew-24-25/P0-Recursos/index.html">Practica 0</a> 
 
-<a href="https://diegomarty00.github.io/sew-24-25/EscritorioVirtual/index.html">Página Web</a>
+<a href="https://diegomarty00.github.io/sew-24-25/EscritorioVirtual/index.html">Página Web</a> 
 
 <a href="http://localhost/GitHub/pruebas-24-25/EscritorioVirtual/index.html">Página localhost</a>
 
