@@ -23,10 +23,14 @@ body {
     flex-direction: column;
 }
 
+header{
+    display: flex;
+}
+
 /*Especifidad: 001
 Controlado con el color del fondo*/
 p {
-    color: #E6D1DC;
+    color: white;
     margin: 1em;
 }
 
@@ -70,6 +74,8 @@ h5,
 h6 {
     font-family: Helveltica, Verdana, sans-serif;
     background-color: #E6D1DC;
+    max-height: fit-content; /* Altura fija para los h5 */
+    max-width: fit-content; /* Altura fija para los h5 */
     color: #5B3354;
     border-radius: 0.5em 0;
     margin: 1em;
@@ -80,7 +86,8 @@ h6 {
 
 /*Especifidad: 001*/
 h3 {
-    font-size: 1.3em;
+    text-align: center;
+    padding: 0.5em;
 }
 
 /*Especificidad: 001*/
@@ -100,7 +107,7 @@ h6 {
 }
 
 /*Especificidad: 002*/
-section nav {
+ nav {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -109,7 +116,7 @@ section nav {
 }
 
 /*Especificidad: 003*/
-section nav a {
+nav a {
     padding: 0.25em 1em;
     text-decoration: none;
     background-color: #E6D1DC;
@@ -119,7 +126,7 @@ section nav a {
 }
 
 /*Especificidad: 013*/
-section nav a:focus {
+nav a:focus {
     font-weight: bold;
 }
 
@@ -140,8 +147,8 @@ section .active {
 video {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: auto;
+    /*display: block;
+    margin: auto;*/
 }
 
 /*Especifidad: 001*/
@@ -211,6 +218,7 @@ ul {
     line-height: 1.5;
 }
 
+/* Lo hago para enseñar que se usarlo*/
 /*Especifidad: 012*/
 ul li:nth-child(3) {
     font-weight: bolder;
@@ -220,7 +228,7 @@ ul li:nth-child(3) {
 Definido el background-color
 anteriormente en body*/
 ol {
-    color: #FFFFFF;
+    color: #D6E024;
     font-size: 1em;
     line-height: 1.5;
 }
